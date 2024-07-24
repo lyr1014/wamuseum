@@ -1,8 +1,7 @@
-import { createApp } from 'vue'
-import './style.css'
+import { createApp } from 'https://unpkg.com/vue@3'
 import App from './App.vue'
-import ElementPlus from 'element-plus'
-import 'element-plus/dist/index.css'
+import ElementPlus from 'https://unpkg.com/element-plus'
+import 'https://unpkg.com/element-plus/dist/index.css'
 
 import router from './router'; // 假设您的路由配置位于 ./router/index.js 或类似的位置
 
