@@ -1,4 +1,4 @@
-import { createApp } from 'https://unpkg.com/vue@3'
+import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
 import App from './App.vue'
 import ElementPlus from 'https://unpkg.com/element-plus'
 import 'https://unpkg.com/element-plus/dist/index.css'

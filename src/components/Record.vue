@@ -27,7 +27,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
 const historyName = ref(["《淮南子·览冥训》", "《列子·汤问》", "《论衡·谈天篇》", "《三皇本纪》", "《天外来客---陨石收藏录》"]);
 const historyContainer = ref(["于是女娲炼五色石以补苍天，断鳌足以立四极，\n杀黑龙以济冀州，积芦灰以止淫水。", "物有不足，故昔者女娲氏炼五色石以补其阙；\n断鳌之足以立四极。", "女娲炼五色石以补苍天，断鳌足以立四极。", "诸侯有共工氏，任智刑以强，\n霸而不王，以水乘木，乃与祝融战，不胜而怒，\n乃头触不周山崩，天柱折，地维缺。", "幸得女娲补天于高山之巅，\n羲和浴日于东海之滨，救得万众生灵。"]);
 const anime1 = ref(false);

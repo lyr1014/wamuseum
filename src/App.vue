@@ -1,5 +1,5 @@
 <script setup>
-import { useRouter } from 'vue-router';
+import { useRouter } from 'https://unpkg.com/vue-router@4.0.15/dist/vue-router.global.js';
 const router = useRouter();
 function drawshow() {
   document.getElementById("draw").style.display = "block";
