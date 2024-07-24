@@ -5,6 +5,11 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
   base:'/wamuseum/',
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, 'src') // 确保路径别名设置正确
+    }
+  },
   build:{
     outDir:'dist',
   }
